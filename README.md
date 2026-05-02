@@ -1,54 +1,36 @@
-# CTOR‑Team‑Team  
-### Placeholder for Future Team-Based CTOR Modes  
-Status: Reserved  
+# CTOR‑Team‑Team
+### Placeholder for Future Team‑Based CTOR Modes
+Status: Reserved
 Maintainer: Vladimir (CTOR‑Labs)
 
----
-
 ## Overview
-Папка **CTOR‑Team‑Team** зарезервирована для будущих командных режимов CTOR.  
-На текущем этапе проект не реализует командные матчи, но архитектура CTOR‑Labs предусматривает возможность их добавления в будущем.
-
-Эта директория служит **структурным местом** для будущего расширения экосистемы CTOR, аналогично тому, как в шахматных платформах существуют отдельные модули для командных лиг, клубов и коллективных соревнований.
-
----
+The CTOR‑Team‑Team directory is reserved for future team‑based CTOR game modes. Team formats are not implemented yet, but the CTOR‑Labs architecture is designed to support them when needed. This folder acts as a structural placeholder for future expansion, similar to how chess platforms maintain separate modules for clubs, leagues, and team competitions.
 
 ## Current Status
-На данный момент **функциональность командных режимов не реализована**.  
-Папка содержит только документацию и не включает код.
+Team‑based functionality is not implemented at this stage. The directory contains documentation only and no executable code.
 
----
+## Potential Future Modules
+- team-logic — core logic for team matches
+- team-matches — scheduling and managing team vs. team games
+- team-tournaments — leagues, championships, and team events
+- team-ratings — team rankings and statistics
+- team-profiles — team pages, rosters, and history
 
-## Potential Future Directions
-Если командные режимы будут востребованы, в этой директории могут появиться следующие модули:
-
-- **team-logic** — базовая логика командных партий  
-- **team-matches** — организация матчей между командами  
-- **team-tournaments** — командные турниры и лиги  
-- **team-ratings** — рейтинги команд и статистика  
-- **team-profiles** — профили команд, составы, история  
-
-Эти модули будут использовать единый игровой движок `ctor-game.js` из директории `core/`.
-
----
+All modules will rely on the shared CTOR engine (core/ctor-game.js).
 
 ## Integration with CTOR Architecture
-Командные режимы будут опираться на:
+Team modes will build on:
+- core/ctor-game.js — unified game engine
+- ui/ — shared interface components
+- CTOR-H-H/ — platform systems (lobbies, profiles, ratings)
 
-- **core/ctor-game.js** — единый игровой движок  
-- **ui/** — единый интерфейс  
-- **CTOR-H-H/** — платформенные механики (лобби, профили, рейтинги)  
-
-Таким образом, CTOR‑Team‑Team станет расширением платформы CTOR, а не отдельной системой.
-
----
+Thus, CTOR‑Team‑Team will extend the CTOR platform rather than form a separate system.
 
 ## Notes
-- Эта папка не требует разработки на текущем этапе.  
-- Она создана для поддержания чистой архитектуры и будущей масштабируемости.  
-- Реализация командных режимов будет зависеть от интереса сообщества и стратегических целей CTOR‑Labs.
-
----
-
-## License
-MIT (или другая по выбору)
+- No development is required at this stage.
+- The folder exists to maintain clean architecture and future scalability.
+- Implementation depends on community interest and CTOR‑Labs strategic priorities.
+- 
+# Have questions about collaboration?
+Fill out our form.
+(https://ctorgame.com/science%26education)
