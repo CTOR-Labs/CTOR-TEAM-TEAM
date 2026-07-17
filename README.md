@@ -6,6 +6,8 @@ Maintainer: Vladimir (CTOR‑Labs)
 ## Overview
 The CTOR‑Team‑Team directory is reserved for future team‑based CTOR game modes. A platform for three-on-three team play has been developed and tested. It's running on Azure.
 
+https://multictor.azurewebsites.net/
+
 You can see the experiments we've already conducted in our video here:
 
 https://www.youtube.com/watch?v=WfrPuPsA6v4&list=PLGzY98ucuYxhh0E9pTS-NpaHlWMPgBIqV&index=2 
