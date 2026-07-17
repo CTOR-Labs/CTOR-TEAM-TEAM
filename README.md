@@ -4,8 +4,10 @@ Status: Reserved
 Maintainer: Vladimir (CTOR‑Labs)
 
 ## Overview
-The CTOR‑Team‑Team directory is reserved for future team‑based CTOR game modes. Team formats are not implemented yet, but the CTOR‑Labs architecture is designed to support them when needed. This folder acts as a structural placeholder for future expansion, similar to how chess platforms maintain separate modules for clubs, leagues, and team competitions.
+The CTOR‑Team‑Team directory is reserved for future team‑based CTOR game modes. A platform for three-on-three team play has been developed and tested. It's running on Azure.
 
+You can see the experiments we've already conducted in our video here:
+https://www.youtube.com/watch?v=WfrPuPsA6v4&list=PLGzY98ucuYxhh0E9pTS-NpaHlWMPgBIqV&index=2 
 ## Current Status
 Team‑based functionality is not implemented at this stage. The directory contains documentation only and no executable code.
 
@@ -33,4 +35,4 @@ Thus, CTOR‑Team‑Team will extend the CTOR platform rather than form a separa
 - 
 # Have questions about collaboration?
 Fill out our form.
-(https://ctorgame.com/science%26education)
+(https://ctorgame.com)
