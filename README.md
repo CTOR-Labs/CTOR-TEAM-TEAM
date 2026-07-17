@@ -11,10 +11,16 @@ https://multictor.azurewebsites.net/
 You can see the experiments we've already conducted in our video here:
 
 https://www.youtube.com/watch?v=WfrPuPsA6v4&list=PLGzY98ucuYxhh0E9pTS-NpaHlWMPgBIqV&index=2 
-## Current Status
-Team‑based functionality is not implemented at this stage. The directory contains documentation only and no executable code.
 
-## Potential Future Modules
+## Current Status
+A gaming platform has been developed that allows for online team games and the recording of game results.
+
+Educational institutions (Schools and Universities) have the right to copy this product and use it for their own experiments. Send us a request through the website, and we will provide full documentation and code.
+
+A new version of the platform for team mode will be developed in 2027.
+
+## Potential Future Modules 2027
+
 - team-logic — core logic for team matches
 - team-matches — scheduling and managing team vs. team games
 - team-tournaments — leagues, championships, and team events
